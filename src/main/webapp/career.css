@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+.joinImage img{
+	height:650px;
+	width: 100%;
+
+	background-image: url("https://www.pursuitgroup.co.uk/wp-content/uploads/2018/10/join-our-team.jpg");
+}
+
+body{
+	background-color: white;
+	background-image: url("https://www.pursuitgroup.co.uk/wp-content/uploads/2018/10/join-our-team.jpg");
+    background-repeat: no-repeat;
+  
+    background-size: 100%;
+}
+
+#main{
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	
+}
+
+#container h1{
+	font-size: 40px;
+}
+
+#container{
+	height: 450px;
+	width: 350px;
+	background-color:white;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	background-color: black;
+	margin:50px;
+	padding:10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 21px white ;
+	
+}
+input{
+	height: 50px;
+	width: 80%;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: black;
+	color:white
+}
+input[type="submit"]{
+	background-color: red;
+	
+}
+input[type="submit"]:hover{
+	transform:scale(1.1);
+	color:white;
+}
+
+#container:hover {
+	transform: scale(1.1,1.1);
+}

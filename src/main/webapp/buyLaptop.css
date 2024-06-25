@@ -1,0 +1,70 @@
+
+
+
+.topContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topContainer p{
+           padding-top: 50px;
+}
+.topContainer p:hover{
+    text-decoration: underline;
+    color: orangered;
+        cursor: pointer;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.container .container1{
+    height: 100vh;
+    width: 500px;
+    
+    margin:0;
+}
+
+
+
+.container .container2{
+    height: 100vh;
+    width: 100%;
+    
+    padding:5px;
+
+}
+.container .container2 .c22{
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+}   
+.container .container1 .c22Image{
+    height: 300px;
+    width: 550px;
+    
+    border: solid white;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container .container2 .c22Para{
+    padding-left: 30px;
+}
+.container .container2 .c22Para .ltd {
+    background-color: red;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.container .container2 .c22Para .tprice{
+    padding-left: 70px;
+}

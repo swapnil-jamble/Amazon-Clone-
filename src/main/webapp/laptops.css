@@ -1,0 +1,107 @@
+
+
+
+.topContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.container .container1{
+    height: 100vh;
+    width: 300px;
+    border:0px solid ;
+}
+
+
+
+.dday {
+
+    padding: 10px;
+    background-color: #fff;
+
+}
+.dday h4{
+    margin-bottom: 2px;
+}
+
+.deliveryCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px; /* Adjust the space between the rows */
+}
+
+.deliveryCheckbox input {
+    margin-right: 10px; /* Adjust the space between the checkbox and the text */
+}
+
+.deliveryCheckbox p {
+    margin: 0;
+}
+
+.con1_2 {
+   display: flex;
+   flex-direction: column;
+   padding:10px; 
+
+}
+.con1_2 .ppadd{
+    color:red;
+    padding-left: 10px;
+}
+.con1_2 h4{
+    margin:1px;
+}
+.con1_2 p{
+    margin-bottom: 2px;
+    margin-top: 1px; 
+    margin-left: 10px;  
+}
+
+.cReview{
+    margin:10px;    
+}
+
+.container .con1_2 p:hover{
+    color:orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ .container1 .dday .deliveryCheckbox p:hover{
+     color:orangered;
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+
+
+.container .container2{
+    height: 100vh;
+    width: 100%;
+    border:0px solid  black;
+    padding:10px;
+
+}
+.container .container2 .c22{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}   
+.container .container2 .c22 .c22Image{
+    height: 300px;
+    width: 550px;
+    border: solid white;
+    background-color: #faf6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .container2 .c22Para{
+    padding-left: 30px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>registerPage</servlet-name>
+    <servlet-class>com.nil.SaveData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>registerPage</servlet-name>
+         <url-pattern>/myRegisterURL</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>loginPage</servlet-name>
+    <servlet-class>com.nil.GetData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>loginPage</servlet-name>
+         <url-pattern>/myLoginURL</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>contactPage</servlet-name>
+    <servlet-class>com.nil.SaveContact</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>contactPage</servlet-name>
+         <url-pattern>/myContactURL</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>careerPage</servlet-name>
+    <servlet-class>com.nil.SaveCareer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>careerPage</servlet-name>
+         <url-pattern>/myCareerURL</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>profilePage</servlet-name>
+    <servlet-class>com.nil.SaveProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+         <servlet-name>profilePage</servlet-name>
+         <url-pattern>/myProfileURL</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
